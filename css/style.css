@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(16, 17, 20); 
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, #cbf5ff, #85c1c4);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(to bottom, #cbf5ff, #85c1c4);
+}
+
+body {
+    background-color: rgb(26, 28, 34);
+    color: white;
+}
+
+.align-center {
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    padding: 50px 0 0 0;
+    font-weight: 900;
+}
+
+h5 {
+    font-weight: 900;
+    padding: 0 0 25px 0;
+}
+
+p {
+    font-size: 120%;
+    text-indent: 50px;
+    text-align: justify;
+}
+
+hr {
+    padding: 2px 0 2px;
+    margin: 50px 0 25px 0;
+}
+
+.sect2 {
+    padding: 50px 0 0 0;
+}
+
+.sect3 {
+    padding: 50px 0 80px 0;
+}
+
+img.historiadoyoga {
+    width: 69%;
+}
+
+img.kamadeva {
+    width: 65%;
+}
+
+h1.yogaclassico2 {
+    padding: 0 0 0 0;
+}
+
+img.yogaclassico {
+    width: 90%;
+}
+
+img.imgs {
+    border-radius: 25px;
+    border: 2px white solid;
+}
+
+h5.subtext {
+    text-align: left;
+}
+
+h1.contato {
+    padding: 0 0 40px;
+}
+
+img.contato {
+    border: none;
+    width: 50%;
+}
